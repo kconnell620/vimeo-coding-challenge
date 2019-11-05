@@ -7,8 +7,9 @@
     font-size: larger;
 }
 
-.image {
+.slide-image {
     object-fit: contain;
+    height: 500px;
 }
 
 .right-content {
@@ -66,7 +67,7 @@
         align-items: center;
         text-align: center;
     }
-    .image {
+    .slide-image {
         height: 500px;
     }
 }

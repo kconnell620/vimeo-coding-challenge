@@ -7,7 +7,7 @@ const Card = (props) => {
         // makes background image transparent for visibility
         <div  style={{background: "linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url(" + props.image + ") no-repeat", backgroundSize: "cover"}}className="card">
             {/* // dynamically will choose image based on props */}
-            <img className="image" src={`${props.image}`}/>
+            <img className="slide-image" src={`${props.image}`}/>
             <div className="right-content">
                 <h3>{props.title}</h3>
                 <p className="body-text">{props.text}</p>
